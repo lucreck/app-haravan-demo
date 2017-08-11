@@ -1,0 +1,23 @@
+{
+  "name": "suplo-haravan",
+  "version": "1.0.0",
+  "description": "app haravan",
+  "main": "index.js",
+  "dependencies": {
+    "shopify-node-api": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "suplo haravan"
+  },
+  "keywords": [
+    "app",
+    "haravan"
+  ],
+  "author": "Loi Pham",
+  "license": "ISC"
+}

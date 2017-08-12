@@ -38,17 +38,3 @@ var auth_url = Haravan.buildAuthURL();
   console.log(headers); // Headers returned from request 
 });
  
-app.get('/finish_auth', function(req, res){
- 
-  var Haravan = new haravanAPI(config), // You need to pass in your config here 
-    query_params = req.query;
- 
-  Haravan.exchange_temporary_token(query_params, function(err, data){
-    // This will return successful if the request was authentic from Shopify 
-    // Otherwise err will be non-null. 
-    // The module will automatically update your config with the new access token 
-    // It is also available here as data['access_token'] 
-  });
- 
-});
-

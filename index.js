@@ -31,10 +31,3 @@ var Haravan = new haravanAPI({
 var auth_url = Haravan.buildAuthURL();
  
  console.log(auth_url);
-
-// Again assuming you are using the express framework 
- Haravan.get('/admin/products.json', query_data, function(err, data, headers){
-  console.log(data); // Data contains product json information 
-  console.log(headers); // Headers returned from request 
-});
- 
